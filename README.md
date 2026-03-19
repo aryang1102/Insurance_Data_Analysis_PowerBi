@@ -112,10 +112,10 @@ Customer feedback indicates generally positive service but with areas for improv
 📷 Dashboard Preview
 
 🔹 Overview Dashboard
-![Overview]()
+![Overview](screenshot/Dashboard_overview.png)
 
 🔹 Customer Feedback & Sentiment Analysis
-![Feedback]()
+![Feedback](screenshot/Customer_Feedback.png)
 
 
 📚 Learnings
