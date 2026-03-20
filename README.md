@@ -1,135 +1,213 @@
-# Insurance_Data_Analysis_PowerBi
-Interactive Power BI dashboard analyzing insurance data, claims, and customer feedback using KPIs, policy insights, and sentiment analysis.
-📊 Prism Insurance Data Analysis Dashboard
 
-This project presents an end-to-end Power BI dashboard built to analyze insurance data for Prism Insurance Pvt. Ltd. The dashboard provides insights into policies, claims, customer demographics, and customer feedback using interactive visualizations.
+# 📊 Insurance Data Analysis & Customer Feedback Insights
+(SQL Server + Power BI + Sentiment Analysis)
 
-🚀 Project Objective
+📌 Project Overview
 
-The objective of this project is to:
+This project delivers a comprehensive Insurance Data Analysis Dashboard combined with Customer Feedback Sentiment Analysis, built using Microsoft SQL Server (MSSQL) and Power BI.
 
-Analyze insurance policy performance
+It provides deep insights into:
 
-Track claim trends and statuses
+Policy performance
 
-Understand customer demographics
+Claims behavior
 
-Evaluate customer satisfaction using sentiment analysis
+Customer demographics
 
-Provide actionable insights for business decisions
+Customer satisfaction using sentiment scoring
 
-📁 Dataset Features
+This is a complete end-to-end data analytics project, covering data storage, transformation, analysis, and visualization.
 
-The dataset includes:
+🎯 Objectives
 
-Policy details (Policy Number, Policy Type)
+Analyze insurance policies, claims, and financial metrics
 
-Claim information (Claim Amount, Status)
+Track premium, coverage, and claim amounts
 
-Customer data (Gender, Age Group)
+Understand claim status distribution (Pending, Settled, Rejected)
 
-Premium & Coverage data
+Identify trends across age groups and policy types
 
-Customer feedback & sentiment scores
+Perform sentiment analysis on customer feedback
+
+Measure customer satisfaction and experience
+
+🏗️ Project Workflow
+1️⃣ Data Collection
+
+Insurance dataset (CSV format)
+
+Customer feedback data
+
+2️⃣ Data Storage (SQL Server)
+
+Imported dataset into MSSQL
+
+Created structured tables
+
+Performed initial data validation
+
+3️⃣ Data Transformation
+
+Cleaned and formatted data
+
+Created calculated columns
+
+Prepared sentiment score field
+
+4️⃣ Data Analysis
+
+SQL queries for aggregation and insights
+
+DAX measures for KPIs and metrics
+
+5️⃣ Data Visualization (Power BI)
+
+Built interactive dashboards
+
+Used slicers, charts, and KPIs
+
+Implemented dynamic visuals and filtering
+
+📂 Dataset Description
+🔹 Insurance Data
+
+Policy Number
+
+Claim Number
+
+Customer ID
+
+Policy Type (Travel, Health, Auto, Life, Home)
+
+Premium Amount
+
+Coverage Amount
+
+Claim Amount
+
+Claim Status (Pending, Settled, Rejected)
+
+🔹 Customer Data
+
+Gender
+
+Age Group
+
+🔹 Feedback Data
+
+Customer Name
+
+Feedback Text
+
+Sentiment Score (-1 to +1)
 
 🛠️ Tools & Technologies Used
 
-Power BI
+Microsoft SQL Server (MSSQL) – Data storage & querying
 
-Power Query (Data Cleaning & Transformation)
+Power BI – Dashboard creation & visualization
 
-DAX (Data Analysis Expressions)
+SQL – Data extraction and aggregation
 
-Data Modeling
+DAX – Measures and calculated fields
 
-📈 Dashboard Highlights
-
-🔹 Key KPIs
-
-Total Premium Amount: 5.98M
-
-Total Coverage Amount: 600.55M
-
-Total Claim Amount: 16.91M
-
-🔹 Policy & Customer Insights
-
-Gender distribution is nearly equal (Male: 5003, Female: 5001)
-
-Travel insurance generates the highest premium
-
-Majority of policies are Active (~58%)
-
-🔹 Claims Analysis
-
-Highest claims are Rejected (4.4K) followed by Settled and Pending
-
-Adults contribute the highest claim amount (~8.8M)
-
-Claim status breakdown helps identify operational gaps
-
-🔹 Customer Feedback Analysis
-
-Integrated sentiment analysis to evaluate customer experience
-
-Word cloud highlights common terms like “service”, “policy”, “claims”
-
-Feedback categories:
-
-Excellent: 72
-
-Need Improvement: 22
-
-Good: 3
+CSV Dataset – Raw data source
 
 📊 Dashboard Features
+🔹 KPI Cards
 
-Interactive filters (Policy Number, Claim Number, Customer ID)
+💰 Premium Amount: 5.98M
 
-Dynamic visuals:
+🛡️ Coverage Amount: 600.55M
 
-Bar charts
+📉 Claim Amount: 16.91M
 
-Donut charts
+🔹 Visualizations
+📌 Policy & Financial Analysis
 
-Line graphs
+Premium Amount by Policy Type
 
-Tables
+Coverage vs Claims comparison
 
-Word cloud
+Policy distribution across categories
 
-Clean and modern dark-themed UI
+📌 Claims Analysis
+
+Number of Claims by Status (Rejected, Settled, Pending)
+
+Claim Amount by Age Group
+
+Claims breakdown by policy type
+
+📌 Customer Demographics
+
+Gender distribution (Male vs Female)
+
+Age group segmentation
+
+🔹 Sentiment Analysis (Customer Feedback)
+
+Word Cloud of customer feedback
+
+Sentiment Score per customer (-1 to +1)
+
+Feedback classification (Excellent, Good, Need Improvement)
+
+Customer satisfaction distribution
 
 💡 Key Insights
 
-Travel policies are the highest revenue contributors
+Travel insurance generates the highest premium revenue
 
-Claim rejection rate is relatively high → needs investigation
+Majority of policies are active (~58%)
 
-Adult customers file the most claims
+Rejected claims are significantly high and need attention
 
-Customer feedback indicates generally positive service but with areas for improvement
+Adults contribute the highest claim amount
 
-📷 Dashboard Preview
+Smokers/health-related policies show higher costs (if applicable)
 
-🔹 Overview Dashboard
+Customer feedback is largely positive, but improvement areas exist
+
+Negative sentiment is linked to:
+
+Claim delays
+
+Website issues
+
+Policy transparency
+
+📸 Dashboard Preview
+🔹 Main Dashboard
+
 ![Overview](screenshot/Dashboard_overview.png)
 
-🔹 Customer Feedback & Sentiment Analysis
+🔹 Customer Feedback Analysis
+
 ![Feedback](screenshot/Customer_Feedback.png)
 
 
-📚 Learnings
+🚀 How to Use
+🔹 SQL Setup
 
-Through this project, I learned:
+Import CSV dataset into SQL Server
 
-Building end-to-end dashboards in Power BI
+Create database and tables
 
-Writing DAX for KPIs and calculations
+Run queries for analysis
 
-Data storytelling using visuals
+🔹 Power BI
 
-Implementing sentiment analysis in BI dashboards
+Open .pbix file
 
-Designing user-friendly and professional dashboards
+Connect to SQL Server
+
+Refresh data
+
+Use slicers and visuals to explore insights
+
+
+
+
 
