@@ -33,6 +33,7 @@ Perform sentiment analysis on customer feedback
 Measure customer satisfaction and experience
 
 🏗️ Project Workflow
+
 1️⃣ Data Collection
 
 Insurance dataset (CSV format)
@@ -70,6 +71,7 @@ Used slicers, charts, and KPIs
 Implemented dynamic visuals and filtering
 
 📂 Dataset Description
+
 🔹 Insurance Data
 
 Policy Number
@@ -115,6 +117,7 @@ DAX – Measures and calculated fields
 CSV Dataset – Raw data source
 
 📊 Dashboard Features
+
 🔹 KPI Cards
 
 💰 Premium Amount: 5.98M
@@ -124,6 +127,7 @@ CSV Dataset – Raw data source
 📉 Claim Amount: 16.91M
 
 🔹 Visualizations
+
 📌 Policy & Financial Analysis
 
 Premium Amount by Policy Type
@@ -179,6 +183,7 @@ Website issues
 Policy transparency
 
 📸 Dashboard Preview
+
 🔹 Main Dashboard
 
 ![Overview](screenshot/Dashboard_overview.png)
@@ -189,6 +194,7 @@ Policy transparency
 
 
 🚀 How to Use
+
 🔹 SQL Setup
 
 Import CSV dataset into SQL Server
