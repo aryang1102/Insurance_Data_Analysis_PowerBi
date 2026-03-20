@@ -43,6 +43,7 @@ DAX (Data Analysis Expressions)
 Data Modeling
 
 📈 Dashboard Highlights
+
 🔹 Key KPIs
 
 Total Premium Amount: 5.98M
@@ -132,6 +133,3 @@ Implementing sentiment analysis in BI dashboards
 
 Designing user-friendly and professional dashboards
 
-📬 Contact
-
-Feel free to connect for feedback or collaboration!
